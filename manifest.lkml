@@ -12,12 +12,13 @@ application: explore_assistant {
   url: "https://localhost:8080/bundle.js"
 #  file: "bundle.js"
   entitlements: {
-    core_api_methods: ["lookml_model_explore","create_sql_query","run_sql_query","run_query","create_query"]
+    core_api_methods: ["versions", "api_spec"]
     navigation: yes
     use_embeds: yes
     use_iframes: yes
     new_window: yes
-    new_window_external_urls: ["https://developers.generativeai.google/*"]
+    new_window_external_urls: ["https://looker.com/*", "https://developer.mozilla.org/*", "https://docs.looker.com/*", "https://cloud.google.com/*"]
+    external_api_urls : ["https://raw.githubusercontent.com","http://localhost:8080","https://localhost:8080","https://static-a.cdn.looker.app","https://docs.looker.com","https://cloud.google.com", "https://developer.mozilla.org/"]
     local_storage: yes
   }
 }
