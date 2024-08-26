@@ -14,7 +14,7 @@
   },
   "models": [
     {
-      "name": "extension-api-explorer-cloit",
+      "name": "extension-api-explorer-clo",
       "connection_constant": "CONNECTION_NAME"
     }
   ]
