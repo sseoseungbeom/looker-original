@@ -13,6 +13,6 @@ application: explore_assistant {
     new_window: yes
     new_window_external_urls: ["https://developers.generativeai.google/*"]
     local_storage: yes
-    # external_api_urls: ["cloud function url"]
+    ## external_api_urls: ["cloud function url"]
   }
 }
